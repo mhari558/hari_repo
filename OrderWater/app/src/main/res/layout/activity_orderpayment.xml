@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="@dimen/dp_20"
+    android:background="@color/bg_color"
+    android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/itemDetailsView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/dp_10"
+        android:background="@android:color/white"
+        android:layout_margin="@dimen/dp_10"
+        android:orientation="vertical">
+
+        <resource.water.com.waterresourceapp.util.CustomTextViewBold
+            android:id="@+id/textView5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:text="@string/order_headline"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_10"
+            android:weightSum="2">
+
+            <resource.water.com.waterresourceapp.util.CustomTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:id="@+id/water"
+                android:text="@string/waterCanCount"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <resource.water.com.waterresourceapp.util.CustomTextView
+                android:id="@+id/waterCanQuantity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/water"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.8"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_10"
+            android:weightSum="2">
+
+            <resource.water.com.waterresourceapp.util.CustomTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.2"
+                android:id="@+id/type"
+                android:text="@string/water_type"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <resource.water.com.waterresourceapp.util.CustomTextView
+                android:id="@+id/orderType"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/type"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_gravity="center_horizontal"
+                android:layout_weight="1.8"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_10"
+            android:weightSum="2">
+
+            <resource.water.com.waterresourceapp.util.CustomTextViewBold
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:id="@+id/address"
+                android:text="@string/address"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <resource.water.com.waterresourceapp.util.CustomTextView
+                android:id="@+id/addressInfo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/address"
+                android:layout_marginLeft="@dimen/dp_40"
+                android:layout_weight="1.5"
+                android:text="Medium Text"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/dp_10"
+        android:background="@android:color/white"
+        android:layout_below="@+id/itemDetailsView"
+        android:layout_marginTop="@dimen/dp_10"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:layout_marginLeft="@dimen/dp_10"
+        android:layout_marginRight="@dimen/dp_10"
+        android:layout_above="@+id/finalSubmitOrder">
+
+    <resource.water.com.waterresourceapp.util.CustomTextViewBold
+        android:id="@+id/we"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:gravity="center"
+        android:text="@string/payment"
+        android:textSize="@dimen/sp_20"
+        android:textStyle="bold" />
+
+
+            <RadioButton
+                android:id="@+id/radio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_30"
+                android:text="@string/cash_on_delivery"
+                android:textSize="@dimen/sp_20"
+                android:background="@drawable/bg1"
+                android:textColor="@android:color/white"
+                android:textStyle="bold" />
+
+        <!--<Button
+            android:id="@+id/we12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:gravity="center"
+            android:layout_below="@+id/we34"
+            android:text="@string/payment"
+            android:textSize="@dimen/sp_20"
+            android:textStyle="bold" />-->
+
+
+
+</LinearLayout>
+
+    <Button
+        android:id="@+id/finalSubmitOrder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:text="@string/submit_order"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/sp_20"
+        android:background="@drawable/button_bg"
+       />
+
+</RelativeLayout>

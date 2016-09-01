@@ -1,0 +1,139 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:map="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relativeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/mapLayout"
+        android:visibility="visible">
+
+        <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:id="@+id/map"
+            android:name="com.google.android.gms.maps.SupportMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            tools:context="resource.water.com.waterresourceapp.fragments.HomeFragment" />
+
+    </RelativeLayout>
+
+    <include
+        android:id="@+id/toplayout"
+        layout="@layout/common_layout"></include>
+
+    <View
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:id="@+id/fetchCurrentLocation"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="@dimen/dp_20"
+        android:layout_marginBottom="@dimen/dp_20"
+        android:padding="@dimen/dp_30"
+        android:layout_above="@+id/bottom"
+        android:background="@drawable/android_location_icon">
+
+    </View>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/bottom"
+        android:gravity="center"
+        android:background="@color/bg1"
+        android:layout_alignParentBottom="true">
+
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:background="@android:color/black"
+            android:layout_centerInParent="true"/>
+
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:id="@+id/submitOrder"
+            android:background="@color/colorPrimary"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="@dimen/sp_20"
+            android:text="@string/next"/>
+
+        <resource.water.com.waterresourceapp.util.CustomEditText
+            android:layout_width="150dp"
+            android:layout_height="@dimen/dp_50"
+            android:background="@drawable/edit_bg1"
+            android:hint="Enter Quantity"
+            android:id="@+id/can_count"
+            android:paddingLeft="@dimen/dp_20"
+            android:layout_marginTop="@dimen/dp_10"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginStart="20dp"
+           />
+
+        <Spinner
+            android:layout_width="150dp"
+            android:layout_height="@dimen/dp_50"
+            android:id="@+id/selectType"
+            android:layout_alignTop="@+id/can_count"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="17dp"
+            android:layout_marginEnd="17dp" />
+    </RelativeLayout>
+
+
+   <!-- <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:visibility="visible"
+
+        android:id="@+id/bottom"
+        android:background="@android:color/white">
+
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/dp_10"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:layout_marginTop="@dimen/dp_5"
+                android:background="@drawable/edit_bg1"
+                android:hint="@string/numberofbottles"
+                android:id="@+id/can_count"/>
+
+            <View android:layout_width="1dp" android:layout_height="match_parent"
+                android:background="#000000"
+                android:id="@+id/view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginLeft="@dimen/dp_10"
+                android:padding="@dimen/dp_20"></View>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/colorPrimary"
+            android:id="@+id/submitOrder"
+            android:text="@string/submit_order"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinner"
+            android:layout_alignParentRight="true"
+            android:layout_alignBottom="@+id/can_count"
+            android:layout_alignParentTop="true" />
+
+
+    </RelativeLayout>-->
+    </RelativeLayout>

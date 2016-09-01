@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <resource.water.com.waterresourceapp.util.CustomTextViewBold
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dp_30"
+        android:gravity="center"
+        android:text="Login"
+        android:textColor="@color/colorPrimary"
+        android:textSize="@dimen/sp_30"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_centerInParent="true"
+        android:layout_alignParentLeft="true">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center_horizontal"
+            android:text="@string/login_username"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp_20"
+            android:visibility="gone"
+
+            />
+
+        <!-- <EditText
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="@dimen/dp_20"
+             android:background="@drawable/bg1"
+             android:ems="10"
+             android:inputType="number"
+             android:maxLength="10"
+             android:imeOptions="actionNext"
+             android:layout_margin="@dimen/dp_10"
+             android:padding="@dimen/dp_20"
+             android:textColorHint="@android:color/black"
+             android:textSize="@dimen/sp_15"
+             android:hint="@string/login_mobile_hint"
+             android:gravity="center"
+             android:id="@+id/loginMobile" />-->
+
+        <resource.water.com.waterresourceapp.util.CustomEditText
+            android:id="@+id/loginMobile"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/login_mobile_hint"
+            android:imeOptions="actionNext"
+            android:inputType="number"
+            android:maxLength="10"
+            android:padding="@dimen/dp_15"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <resource.water.com.waterresourceapp.util.CustomTextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_20"
+            android:gravity="center_horizontal"
+            android:text="@string/login_password"
+            android:textColor="@android:color/black"
+            android:textSize="@dimen/sp_20"
+            android:visibility="gone" />
+
+        <resource.water.com.waterresourceapp.util.CustomEditText
+            android:id="@+id/loginPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/dp_10"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="@string/login_password_hint"
+            android:imeOptions="actionDone"
+            android:inputType="textPassword"
+            android:padding="@dimen/dp_15"
+            android:textColor="@android:color/black"
+            android:textColorHint="@android:color/black"
+            android:textSize="@dimen/sp_15" />
+
+        <Button
+            android:id="@+id/loginSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_20"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:textSize="@dimen/sp_15"
+            android:text="@string/login_submit"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/loginNewRegister"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_40"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_20"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:textSize="@dimen/sp_15"
+            android:text="@string/register"
+            android:layout_marginLeft="@dimen/dp_20"
+            android:layout_marginRight="@dimen/dp_20"
+            android:textColor="@android:color/white"
+            />
+        <resource.water.com.waterresourceapp.util.CustomTextView
+            android:id="@+id/loginForgotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_10"
+            android:gravity="center"
+            android:padding="@dimen/dp_10"
+            android:text="@string/forgot_password"
+            android:textColor="@android:color/black" />
+
+
+       <!-- <Button
+            android:id="@+id/loginForgotpassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/dp_10"
+            android:background="@drawable/button_bg"
+            android:gravity="center"
+            android:textSize="@dimen/sp_20"
+            android:text="@string/forgot_password"
+            android:layout_margin="@dimen/dp_20"
+            android:textColor="@android:color/white"
+            />-->
+
+
+    </LinearLayout>
+
+    <LinearLayout
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:id="@+id/linearLayout"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="37dp">
+
+        <!-- <TextView
+             android:id="@+id/loginForgotpassword"
+             android:layout_width="match_parent"
+             android:layout_height="wrap_content"
+             android:layout_marginTop="@dimen/dp_10"
+             android:gravity="center"
+             android:padding="@dimen/dp_10"
+             android:text="@string/forgot_password"
+             android:textColor="@android:color/black" />-->
+
+         <!-- <TextView
+              android:id="@+id/loginNewRegister"
+              android:layout_width="wrap_content"
+
+              android:layout_height="wrap_content"
+              android:layout_marginTop="@dimen/dp_10"
+              android:padding="@dimen/dp_20"
+              android:text="@string/register"
+              android:textColor="@android:color/black" />-->
+
+     </LinearLayout>
+</RelativeLayout>

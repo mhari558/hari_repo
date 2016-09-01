@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="@color/home"
+    android:padding="@dimen/dp_10"
+    android:layout_height="wrap_content">
+
+        <resource.water.com.waterresourceapp.util.CustomEditText
+            android:id="@+id/destinationEdtLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:maxLines="1"
+            android:padding="@dimen/dp_10"
+            android:ellipsize="end"
+            android:inputType="text"
+            android:background="@android:color/transparent"
+            android:textSize="15sp"
+            android:textColor="@android:color/white"
+            android:drawablePadding="10dip"
+            android:hint="@string/enter_source_hint"
+            android:textColorHint="@color/white"
+            android:layout_alignRight="@+id/view"
+            android:layout_alignEnd="@+id/view" />
+
+        <View
+            android:id="@+id/view"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_below="@+id/destinationEdtLocation"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="50dp"
+            android:layout_marginTop="5dp"
+            android:background="@android:color/white"
+            android:drawableLeft="@android:drawable/sym_def_app_icon"
+            android:hint="Enter Source" />
+
+        <ImageView
+            android:id="@+id/clear"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:padding="@dimen/dp_10"
+            android:background="@drawable/ic_window_close"
+            android:layout_alignParentRight="true"/>
+
+</RelativeLayout>
