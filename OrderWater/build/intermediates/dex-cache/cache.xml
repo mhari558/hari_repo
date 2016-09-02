@@ -3,570 +3,570 @@
 
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.2.1/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
-        sha1="ccc963cafe59ce185c49f47baff7eedcb8589bdf">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-contextmanager-9.2.1_45db0e282b80558084237c2a57be73e8eba75f22/classes.dex" />
+        sha1="b24c1a80d8ccaecee7b8b80209b4e273dc22b14d">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.2.1_9ef39c268ac31d523f486e8a7798c3c8a30db970/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.2.1/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="4b515e6e269bfe848f5b43ac09bce54d6617d4fd">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.2.1_0457abb1177803162639552879b030832269848b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.2.1_5924f6ea2fc1567324e27c72d8222212e68d1281/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.2.1_1273051dc779de10a378ad08efb38a56f562c42c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="e719de687ac45141de3dd613907860a495580af0">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.2.1_339479d2725925510a2efe10e6fec701de003400/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="77e2e4803396fa79009ace04d9be84184aafcc31">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.2.1_2e0bb295fb5990e741363ffeb675ecd6054bba06/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="310ef01419435979cc82847cf085799a8d00e7e9">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.2.1_943ad95b5870f0b8c4c3784ea789324577beb5ab/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="dd1907a2e855eeb2be8aa3486f3d4d4f1c8b22af">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.2.1_ad4e0e22bbd507fe70853e34be6ca6b864162da0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="152cba5ca28fd4a5191a8577a0fa96d61122041e">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.2.1_5379014b07cfe876e7b31fa64db184e13c6a9eca/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_c51a8701636d5925acd04f325f2c579126813ad0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.2.1_d3b3abfa2fbfe23fb9ec5cca403181fee3e8b8b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.2.1_b1aa75748964411f34c8f9ee18620a5eebc1248a/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="4c2b01baa64ba25f8dbdf7f7f828bc5664dab55e">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.2.1_52f9b810199a6d80bb17bd00d1b97295f563834f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="89ab748a6c0ab6ac1d3671f2356d6181e8108bc5">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.2.1_2e2133bead6719eae3d86877bc0a22056035da20/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_1e5774783c420d5dd9b988e1aba2a1ae056e4d68/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_5aa6b6b5ce2a2ed2a3c68076d4862625d4764daf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.2.1_9545d89c97f396daf3716794c00dc115d9eba129/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="50b68e9bcf1cc9d012239b89f1d58fc07c4028bc">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_da760f166fee8ddbced53de75a08a34b62052aae/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="07c569a77f437c5c71eac8b1b636a50bebb69a93">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.2.1_f10122330525116df2c0c15eb3555b4f4edfc5b3/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.2.1_3158d90e072b5c2ab3d3013c97e192299b197a53/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="9f2282b9fc24f24c69665032dede1bc7201cf006">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.2.1_2d928b0e599f7b513ade250eadfe55c110d7d70f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_388c430d1b5849d7caa8a6de73cb8dd53a8a15eb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.2.1_74ab0b48d846145d42dfa79f397fe19591e22279/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="6c09228ff931eb30b68dd27fe34ed90d978b6892">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.2.1_80be4995728668e8e65a81f4d60d557a86ff84b9/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.2.1_315b343fe722a959d0e8f93f5e92d6a01140e160/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="650cf8686cd625acfbdd43f8ab33f6f2f057605f">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha3_2546ab966af86214c6095dfcfb92d1c02d1c7179/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_5ad9f6e87d6f8f118a2b04c0805f25e08de921af/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="f06a0705d7b8b9d18b00d056fe0e07bec75514e6">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.2.1_63ccb5076472a816bd4a9385c49b78f61af9daf4/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="90eeba67a669f8fb24db0f821ef81703fe7a02bc">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.2.1_d42e0dbef7dba51eaa76b5a79ed792edabe60393/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="ee19e33a798d11a5cf309a40155b8223fadcdeea">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.2.1_efff3e569cfd7738d322981fc50b5f39c452c84f/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.2.1_bd702f2153653208ca14d87b5d9aae1213a2b34c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_36dd33e6463a5ea839901236a4a579758e936ab0/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/libs/backendless.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="b942e42c6f40417cfe665c819e5909f020ca03e2">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/2/backendless_f964a09c7e8434e812c9fdd007ea2ed3cef0e86c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="0979debb5b4d955ddc0e80bb192f4f00c2f91750">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.2.1_26d81f8a8aad6dbf3e5533eed4036544f2a85c6e/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.2.1_7a64e64b577ed0f76fa9761f799187ec5d8701f5/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_402e9ba28209f8210e5f9e39cc15b40f9539b716/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="d064f813cd835f17853e39221b247cf6a997a2db">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.2.1_3c5c4db6a499d03a145c7edba0c85a7f203f82de/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="081ced8ab77e606b6743c27cfe93dc450447b046">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.2.1_5ff383dd13cf649f0d4a0755624f82d6f683153c/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_6756b934848a307da3a8c9aa2c1126e16686ac33/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.2.1_061aaa19a46b16ee87e7f60339de9923cbcd18bb/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="ac78f93fc89c497a65f9d9a352cd405996d2f65a">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.2.1_d6ba30a87c8a1476ac6771aec08e388bc9dce612/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="bbd51be332bace144b3d16501ec0af379c3c8750">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.2.1_85a3fc707020be251a397b0ca357eb01ffbdad73/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="36e2b438f9b0d68fb2482c8f389e249e32840cff">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.2.1_8fb722cf35a2e250d29d4be897e87088fb1a0d08/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="1141496362c8876f0da4b645fbaf22c0a3618372">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.2.1_23b011ca702c362bd8d97d92a9ab3330dfff561b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="05a2710d284c03087013a667a324c9e2aba5bc91">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.2.1_58468a5b040ebf22a9fe6e98c699395f5649756b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.2.1_6b9b8e7f22c345cc5650a1f2b500a5841cf996a2/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="428c9bac95b2f72921224e289553a04bea61cda5">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.2.1_32fe1ada27b2caab7cf028006fe794045421bd65/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="05d2e01f33fb2097b51fce3f938dc37a75fe2d6b">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.2.1_4608ceaad308bed65736b874e2c40501415cd8bf/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
         sha1="8aada8a0e9e9b3ecdda5e80f17c6a51a468e302a">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.2.1_91bd37c9fe554944f48aa8d0a304854b72468992/classes.dex" />
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-9.2.1_e7ff7bc23d5a074b06f8958553cbcdcd146b7899/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.2.1/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support.constraint/constraint-layout/1.0.0-alpha3/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
-        sha1="def5530cb13311617fc8f962e2a90225bb6904e2">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.2.1_d14ec9a9de29b9959898e91eb71de80c85ea5134/classes.dex" />
+        sha1="650cf8686cd625acfbdd43f8ab33f6f2f057605f">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support.constraint-constraint-layout-1.0.0-alpha3_1cfec92f149be2872276d8d2eeb1a76e7b9c9c85/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth-base/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
-        sha1="13a902165b29e2e9f14c011e8151acd210a464b3">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_7b2ec9143220fc558086c712b2b06b4032cfab69/classes.dex" />
+        sha1="48917c60ea81213ea39cbd7123996a5401106dc3">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-base-9.2.1_369d6642410edcf71c2eed2c039209ed2c6e728c/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.2.1/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tasks/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
-        sha1="0765979e802b1669c90dc36076559461d5eb6ad1">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.2.1_d2b952a401c36aa4623810103f24063b56d21d3e/classes.dex" />
+        sha1="819c2c3a4fb135e085445d11131d069cf9c32b2a">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tasks-9.2.1_5615e7e2c5693a15c90c8549a1fb5088ec21fda5/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.2.1/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-config/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
         sha1="7bb417e9ac8645285342935679e75d371b58b62b">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.2.1_893b91e122749ed06b8f36b3694deab14a3abdf8/classes.dex" />
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-config-9.2.1_b706741a6598cc036f6933f67678cc8d41ddfaa1/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.2.1/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-common/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
-        sha1="f3b0ff905873c91ab64addba30cc1e77bed34c4d">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.2.1_322b6223b7286ddb284fd5960906415ab3d5fda8/classes.dex" />
+        sha1="ee409046028e5657a2a69edaa2eba00d6511a74c">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-common-9.2.1_17dad7e2152a2ced0719aebe73e32eab70a17f99/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads-lite/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="310ef01419435979cc82847cf085799a8d00e7e9">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-lite-9.2.1_8f4d368899bc7959422ccc5598d3cfe14ffaf1d5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d064f813cd835f17853e39221b247cf6a997a2db">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-9.2.1_72456a2213c5f6b0f680361d22a5209ac70959cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager-api/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="77e2e4803396fa79009ace04d9be84184aafcc31">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-api-9.2.1_2889decb231614dc1a599cd2f1f48b36a318a816/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="428c9bac95b2f72921224e289553a04bea61cda5">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-9.2.1_1a49339a679db4df86a6bf2db48dbc856decbc6b/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4b515e6e269bfe848f5b43ac09bce54d6617d4fd">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-9.2.1_9d6a4c7f7313c9d4f2c8492fd64091bc4aab9e15/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-crash/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6c09228ff931eb30b68dd27fe34ed90d978b6892">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-crash-9.2.1_197dc7d599b4897d3aefed812af1639fcce5e2be/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="07c569a77f437c5c71eac8b1b636a50bebb69a93">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-9.2.1_0ef8c1ebd053d49d838bfa86bbac4de0d1178ad8/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth-module/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="35a01d7cb4ff6b5976777bf5827fd8f206fb8757">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-module-9.2.1_eeeed207269e2b71560e64917776581795f26ef9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database-connection/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="05d2e01f33fb2097b51fce3f938dc37a75fe2d6b">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-connection-9.2.1_bc9005c9178f7654baa423758f33a89bfab35b0d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-iid/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="a65d98c9409f271d3209f4cc1f7d8e0391665fa5">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-iid-9.2.1_a74e22f8d2f01b097fd4f0a9787f2f6c32b69af1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="894922f67adeaaef51f077a29e315da21a3382d3">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-recyclerview-v7-24.0.0_f739128c13020c2f3d19ad85b9699f0690ff418d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2f7e6e2dad1bccaf68a8820820adc6c0d5b96d37">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-24.0.0_9c4855c017c7ec0fd6c185a5f6977bd6da835b44/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="bbd51be332bace144b3d16501ec0af379c3c8750">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-9.2.1_2490bca5e1310feb1b524eb0cffab8b5f3ebf31a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/support-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3bd97cfefd783e9de1dd1c30574a6adb44b4409b">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-vector-drawable-24.0.0_b405c16fce25c4b9aba3e23642e9b8703aad78e5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_f96bed1fd87613cc44cef12d91d0cfab91b6f3a0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d358b3dd49a7c67844622dcbc9cf4339e13952ce">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-mediarouter-v7-23.0.0_3b06cd80db929b17cf117ed7776d2fd70aca069f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-common/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3627eacd7f7cafb5e8ae683992e7b2f9b7dcab1a">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-common-9.2.1_850edcc4dfbd4f08680e34a95ffc35fc4a5d81f3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-auth/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="2506c5893e125e2f9cfc522378e893620c21b109">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-auth-9.2.1_638c0a69587e3d68229ba62ecd1b43fb2a1eedf3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="05a2710d284c03087013a667a324c9e2aba5bc91">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-9.2.1_6a111a2323337b881ed475e85f7df505f833393a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-clearcut/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="90eeba67a669f8fb24db0f821ef81703fe7a02bc">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-clearcut-9.2.1_5241b13b8a357630da3dc2e4a9ca3499b2fd948d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-places/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0979debb5b4d955ddc0e80bb192f4f00c2f91750">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-places-9.2.1_1ec95e85ccf1ad3e975e3c447c258f48f22c9c86/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="421b36cf4f0d3bbd75e8f28647fccf36674ef049">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-9.2.1_211c8cf2cfda0e54cf493cd81382c18e5ec261d7/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="edf9a22ebf25281619265079aec8f5d433da1a5c">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-9.2.1_f33b777af4969463cc6355d8eda7c116a712e830/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="8432c5ed5299a40a2a57f76aade1c107bfe812d8">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c6c05118eac0a78d652d797033725b4fcf0e5e13/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.2.1_020c6df309e1194fbcd1555ee8a061429ad985b2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="dd1907a2e855eeb2be8aa3486f3d4d4f1c8b22af">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-9.2.1_628e5240c3c5a28794630d29c0c79de59f0e67f1/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/libs/backendless.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="b942e42c6f40417cfe665c819e5909f020ca03e2">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/2/backendless_8673ebff64babdb755f2a383067c8994375d01cb/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="152cba5ca28fd4a5191a8577a0fa96d61122041e">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-9.2.1_58cbe6850ab6874f28f424c10aa446b7ad6d7f02/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-database/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f06a0705d7b8b9d18b00d056fe0e07bec75514e6">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-database-9.2.1_cee158c2d55d2f47796796abbd5abbf600abc94d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.2.1_bb2eac1805af50434de340c3a6567e083d58560a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="def5530cb13311617fc8f962e2a90225bb6904e2">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-9.2.1_119d05123e6c2cc83aa4ef3eb8dfce4e6a38d2d6/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ee19e33a798d11a5cf309a40155b8223fadcdeea">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-9.2.1_c5016bb4e5fc27175fb21d7743fcd945113e649d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-iid/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d41b5d21cc9dd7d210f0ae82ac509ba7f091d611">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-iid-9.2.1_b05166bacbfd16583239267f0abc67b5e6b35219/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="d7a8cff2ab453a7e7f464b24c2df3f6fffbb6905">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_30cfbfa2c74eadc837521743ce8049fdc07eaea0/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/mediarouter-v7/23.0.0/jars/libs/internal_impl-23.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="03d38bb042efe3e5ce27ba66b729a9523c36d8fe">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-23.0.0_6885d3db79d0f1d50fa4690363dc7d305b0552c9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-contextmanager/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ccc963cafe59ce185c49f47baff7eedcb8589bdf">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-contextmanager-9.2.1_71b1208c1fbcca202eafd86509067af1ac981e0b/classes.dex" />
     </item>
     <item
         is-multidex="true"
         jar="/home/hari/Android/Sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.0-alpha3/constraint-layout-solver-1.0.0-alpha3.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
         sha1="977d57354ef7ef4faa604b802d4907728e0db889">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha3_3390d6e2f83d395a89a15c7aa346c4e182f0b72d/classes.dex" />
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/constraint-layout-solver-1.0.0-alpha3_3390d6e2f83d395a89a15c7aa346c4e182f0b72d/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-basement/9.2.1/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
-        sha1="6b896c1067633db41e9c10a3a5d0919c5c4cfc8c">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-basement-9.2.1_6881983998207edb0abc3f00bba82f318fe828db/classes.dex" />
+        sha1="0765979e802b1669c90dc36076559461d5eb6ad1">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-9.2.1_74b3c7fdd9989b0146616cd0e96b731555700da3/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.2.1/jars/classes.jar"
+        jar="/home/hari/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/24.0.0/support-annotations-24.0.0.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
-        sha1="6d2f508d1a9fa0fbe1653595e484800c08afb42c">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.2.1_626ceb9a74d0093468195c32fd65ec55304a1785/classes.dex" />
+        sha1="2943c74db6d4346ab8c6531adac91fa05c137c40">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-24.0.0_5ad9f6e87d6f8f118a2b04c0805f25e08de921af/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/animated-vector-drawable/24.0.0/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics-impl/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
-        sha1="e70f608219ed6b974644c333249ab2bb7b71de98">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-animated-vector-drawable-24.0.0_3d176d85c0732cd17572650a7782ceb9083ab6db/classes.dex" />
+        sha1="5337354083e89ed67151859ab0b6b80935c60eaf">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-impl-9.2.1_38b00a4504dd6dfd85884bfd7ae8a357a1a39555/classes.dex" />
     </item>
     <item
         is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/jars/classes.jar"
         jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_9abb4f7e9ac5b6674d0442125125c2da655a4656/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-tagmanager/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="b24c1a80d8ccaecee7b8b80209b4e273dc22b14d">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-tagmanager-9.2.1_9f49f6f92553d12ca033ee785e943a8bed5d3aa8/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.firebase/firebase-analytics/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="6a0f2d219f82db499ac03d5a985c4eb3e83fc422">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-analytics-9.2.1_f3b489276cf819ef87f54e3fdcb0601d24334696/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
-        revision="24.0.0"
-        sha1="3a42c5696fa39930d39770f7e5552a9c965fbe09">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.2.1_2bf0e188c50ede647e5c31ba2e0ec652df13732b/classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/9.2.1/jars/classes.jar"
-        jumboMode="true"
-        optimize="false"
+        optimize="true"
         revision="24.0.0"
         sha1="357a8702c49044417d4856861c8f435e7c74ef09">
-        <dex dex="/home/hari/Android-Workspace/WaterResourceApp/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.2.1_fd76a9e95008398d97ae85c3654bb5918e20c22c/classes.dex" />
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-9.2.1_3e7c6585df1c8b13e8b40b3ab6c691e3646662c5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gass/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="081ced8ab77e606b6743c27cfe93dc450447b046">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gass-9.2.1_2089748944d465d285c80229cd2e82a2d92e8a64/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appinvite/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f3b0ff905873c91ab64addba30cc1e77bed34c4d">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appinvite-9.2.1_b9a3c63d90bd3cc1951b934802090348623ee0ee/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/design/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fc29308a7a8f6d4407b34634eb48fb8b817f9b23">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-design-24.0.0_e01c369db67dc0f2200b8e0b6fa9ad12ce1c7580/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="6d2f508d1a9fa0fbe1653595e484800c08afb42c">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-9.2.1_9edb68a3450c8389f4b292fd8fa018d572bc823a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast-framework/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="9f2282b9fc24f24c69665032dede1bc7201cf006">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-framework-9.2.1_395d06d4bf970dcffd64d684ff7343fb87ce4997/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/24.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="0874286cc2fd88d54fdf130e9d5372730da6de97">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-24.0.0_9ac4e9ebabb4d298a6b650db9be819ba1b1f9720/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage-common/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="36e2b438f9b0d68fb2482c8f389e249e32840cff">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-common-9.2.1_1934e966a3f99491cd70aceebede2085df536cb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="89ab748a6c0ab6ac1d3671f2356d6181e8108bc5">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-9.2.1_882cb45505c431ecc1afe2d28bb522b54dab5c5c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-messaging/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="ac78f93fc89c497a65f9d9a352cd405996d2f65a">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-messaging-9.2.1_756934e7492e6cc0cb1309802f8742435b5851cc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.android.support/support-v4/24.0.0/jars/libs/internal_impl-24.0.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="fcaf463e10e69c1923ccf1edeba3b4196d239e00">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-24.0.0_c5aef300d985c53bc6290c7e432b02ce15c6c408/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.firebase/firebase-storage/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e719de687ac45141de3dd613907860a495580af0">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.firebase-firebase-storage-9.2.1_abbf4743f5d296453818001daf9a235aeb19521a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-vision/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="3a42c5696fa39930d39770f7e5552a9c965fbe09">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-vision-9.2.1_70dbab933e9ede9174eca3bb39b8209378d2349a/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics-impl/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="1141496362c8876f0da4b645fbaf22c0a3618372">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-impl-9.2.1_916c8d5541940ad89a1cbedb779e35f1b59893d2/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-auth/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="e1bec33f1ec5367e25676638b430b9d585f3dbec">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-auth-9.2.1_5f93733d8b3b49f53a4e4708a8f8d7d51800a0f4/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/9.2.1/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="4c2b01baa64ba25f8dbdf7f7f828bc5664dab55e">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-9.2.1_a01ad83106bad2d315e41061a777c6dc4a59801d/classes.dex" />
     </item>
 
 </items>

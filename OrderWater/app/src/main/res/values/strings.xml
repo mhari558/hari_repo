@@ -97,6 +97,9 @@
     <!--<string name="payment">Payment Options</string>
     <string name="payment">Payment Options</string>-->
 
+    <string name="location">LOCATION PERMISSION IS MANDATORY</string>
+    <string name="CALL">CALL</string>
+
 
     <string-array name="quantity">
         <item> 1</item>
