@@ -24,10 +24,11 @@
 
 
 
-    <string name="register">Register Here</string>
+    <string name="register"><html><u>Register Here</u></html></string>
     <string name="forgot_password">Forgot password </string>
 
     <string name="forgotTitle">Forgot password</string>
+    <string name="update_password">Update password</string>
     <!-- <string name="forgot_password">Forgot password Click Here..</string>-->
     <string name="logout">Are you sure want to Logout ?</string>
     <string name="signout">Logout</string>
@@ -71,6 +72,7 @@
 
     <string name="valid_phone">Please enter valid Mobile number</string>
     <string name="valid_password">Please enter valid Password</string>
+    <string name="valid_usertype">Please select user type</string>
 
     <string name="valid_destination">Please select Destination</string>
     <string name="valid_quantity">Please enter valid Quantity</string>
@@ -129,6 +131,10 @@
 
     <string name="enable_permissions">This app requires all permissions. \nPlease go to device settings and enable required permissions.</string>
 
-
+    <string-array name="category">
+        <item>Select User Type</item>
+        <item>Customer</item>
+        <item>Dealer</item>
+    </string-array>
 
 </resources>

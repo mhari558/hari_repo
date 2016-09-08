@@ -11,7 +11,10 @@ import android.view.View;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.backendless.Backendless;
+
 import resource.water.com.waterresourceapp.activities.LogInActivity;
+import resource.water.com.waterresourceapp.util.Const;
 
 public class SplashActivity extends AppCompatActivity {
 
@@ -19,6 +22,8 @@ public class SplashActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash);
+
+        Backendless.initApp(this, Const.APPLICATION_ID, Const.APPLICATION_SECRET_KEY, Const.VERSION);
 
         new Handler().postDelayed(new Runnable() {
             @Override

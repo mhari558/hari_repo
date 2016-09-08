@@ -277,7 +277,7 @@
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="8432c5ed5299a40a2a57f76aade1c107bfe812d8">
+        sha1="da127f953e6d58a585f80bccef6f3186bfb42d66">
         <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_c6c05118eac0a78d652d797033725b4fcf0e5e13/classes.dex" />
     </item>
     <item
@@ -363,11 +363,20 @@
     </item>
     <item
         is-multidex="true"
+        jar="/home/hari/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.6.2/f1bc476cc167b18e66c297df599b2377131a8947/gson-2.6.2.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="24.0.0"
+        sha1="f1bc476cc167b18e66c297df599b2377131a8947">
+        <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/gson-2.6.2_3e009d117ebf2c00d94469a7af5dae0410e36316/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
         jar="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
         optimize="true"
         revision="24.0.0"
-        sha1="d7a8cff2ab453a7e7f464b24c2df3f6fffbb6905">
+        sha1="95c25d2df7f4a2888d8e2ab17e7b34834d43d091">
         <dex dex="/home/hari/Android-Workspace/OrderWater/OrderWater/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_30cfbfa2c74eadc837521743ce8049fdc07eaea0/classes.dex" />
     </item>
     <item

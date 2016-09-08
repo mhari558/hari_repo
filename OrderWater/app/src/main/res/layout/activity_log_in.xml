@@ -2,7 +2,7 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@android:color/white">
+    android:background="@color/white">
 
     <resource.water.com.waterresourceapp.util.CustomTextViewBold
         android:id="@+id/title"
@@ -53,6 +53,10 @@
              android:gravity="center"
              android:id="@+id/loginMobile" />-->
 
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
         <resource.water.com.waterresourceapp.util.CustomEditText
             android:id="@+id/loginMobile"
             android:layout_width="match_parent"
@@ -67,7 +71,8 @@
             android:padding="@dimen/dp_15"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/black"
-            android:textSize="@dimen/sp_15" />
+            android:textSize="@dimen/sp_18" />
+        </android.support.design.widget.TextInputLayout>
 
         <resource.water.com.waterresourceapp.util.CustomTextView
             android:id="@+id/textView2"
@@ -79,7 +84,9 @@
             android:textColor="@android:color/black"
             android:textSize="@dimen/sp_20"
             android:visibility="gone" />
-
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
         <resource.water.com.waterresourceapp.util.CustomEditText
             android:id="@+id/loginPassword"
             android:layout_width="match_parent"
@@ -93,7 +100,8 @@
             android:padding="@dimen/dp_15"
             android:textColor="@android:color/black"
             android:textColorHint="@android:color/black"
-            android:textSize="@dimen/sp_15" />
+            android:textSize="@dimen/sp_18" />
+        </android.support.design.widget.TextInputLayout>
 
         <Button
             android:id="@+id/loginSubmit"
@@ -109,29 +117,35 @@
             android:layout_marginRight="@dimen/dp_20"
             android:textColor="@android:color/white"
             />
-        <Button
-            android:id="@+id/loginNewRegister"
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/dp_40"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginTop="@dimen/dp_20"
-            android:background="@drawable/button_bg"
-            android:gravity="center"
-            android:textSize="@dimen/sp_15"
-            android:text="@string/register"
-            android:layout_marginLeft="@dimen/dp_20"
-            android:layout_marginRight="@dimen/dp_20"
-            android:textColor="@android:color/white"
-            />
-        <resource.water.com.waterresourceapp.util.CustomTextView
-            android:id="@+id/loginForgotpassword"
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="@dimen/dp_10"
+            android:orientation="horizontal"
+            android:layout_marginTop="@dimen/dp_10">
+
+        <resource.water.com.waterresourceapp.util.CustomTextView
+            android:id="@+id/loginForgotpassword"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/dp_20"
             android:gravity="center"
             android:padding="@dimen/dp_10"
             android:text="@string/forgot_password"
-            android:textColor="@android:color/black" />
+            android:textColor="@color/colorPrimary" />
+
+            <resource.water.com.waterresourceapp.util.CustomTextView
+                android:id="@+id/loginNewRegister"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/dp_40"
+                android:textSize="@dimen/sp_15"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="@dimen/dp_20"
+                android:text="@string/register"
+                android:textColor="@color/colorPrimary"
+                />
+        </RelativeLayout>
 
 
        <!-- <Button
@@ -160,6 +174,7 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:layout_marginBottom="37dp">
+
 
         <!-- <TextView
              android:id="@+id/loginForgotpassword"

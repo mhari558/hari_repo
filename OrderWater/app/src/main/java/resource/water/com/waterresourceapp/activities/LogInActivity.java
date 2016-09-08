@@ -3,7 +3,10 @@ package resource.water.com.waterresourceapp.activities;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
+import android.preference.Preference;
+import android.preference.PreferenceManager;
 import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
@@ -15,9 +18,13 @@ import com.backendless.Backendless;
 import com.backendless.BackendlessUser;
 import com.backendless.async.callback.AsyncCallback;
 import com.backendless.exceptions.BackendlessFault;
+import com.google.gson.Gson;
+
+import java.util.prefs.Preferences;
 
 import resource.water.com.waterresourceapp.NavigationMainActivity;
 import resource.water.com.waterresourceapp.R;
+import resource.water.com.waterresourceapp.util.Const;
 import resource.water.com.waterresourceapp.util.Utils;
 
 /**
@@ -26,17 +33,16 @@ import resource.water.com.waterresourceapp.util.Utils;
 
 public class LogInActivity extends CommonActivity implements View.OnClickListener, View.OnKeyListener {
 
-    public static final String APPLICATION_SECRET_KEY = "B79091D3-9FF6-B9D7-FF99-A466DBB3F800";
-    public static final String APPLICATION_ID = "44E38069-4ADB-5077-FF34-C551D6D41200";
+
     private Button mBtnLoginSubmit;
     private TextView mTxtRegister, mTxtForgotPassword;
     private EditText mEdtMobile, mEdtPassword;
+    private SharedPreferences sharedPreferences;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_log_in);
-        Backendless.initApp(this, APPLICATION_ID, APPLICATION_SECRET_KEY, "v1");
         initUi();
         listeners();
     }
@@ -51,6 +57,8 @@ public class LogInActivity extends CommonActivity implements View.OnClickListene
 
     private void initUi() {
 
+
+        sharedPreferences = PreferenceManager.getDefaultSharedPreferences(this);
         mBtnLoginSubmit = (Button) findViewById(R.id.loginSubmit);
         mEdtMobile = (EditText) findViewById(R.id.loginMobile);
         mEdtPassword = (EditText) findViewById(R.id.loginPassword);
@@ -82,19 +90,21 @@ public class LogInActivity extends CommonActivity implements View.OnClickListene
                 @Override
                 public void handleResponse(BackendlessUser backendlessUser) {
 
+                    Utils.putStringIntoSharedPreferences(LogInActivity.this,"UserId",mEdtMobile.getText().toString());
+                    Utils.putStringIntoSharedPreferences(LogInActivity.this,"Password",mEdtPassword.getText().toString());
                    // Toast.makeText(getApplicationContext(), "Success", Toast.LENGTH_SHORT).show();
-
+                    Utils.hideProgressBar();
                     Intent intent = new Intent(getApplicationContext(), NavigationMainActivity.class);
                     intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                     finish();
-                    Utils.hideProgressBar();
                 }
                 @Override
                 public void handleFault(BackendlessFault backendlessFault) {
                     Utils.hideProgressBar();
+                   // Toast.makeText(getApplicationContext(),backendlessFault.getMessage(), Toast.LENGTH_SHORT).show();
                     if(Integer.parseInt(backendlessFault.getCode()) == 3003) {
-                        Toast.makeText(getApplicationContext(),getResources().getString(R.string.not_existed), Toast.LENGTH_SHORT).show();
+                        Toast.makeText(getApplicationContext(),backendlessFault.getMessage()+""+getResources().getString(R.string.not_existed), Toast.LENGTH_SHORT).show();
                     }
                 }
             });
@@ -105,11 +115,13 @@ public class LogInActivity extends CommonActivity implements View.OnClickListene
 
         AlertDialog.Builder builder = new AlertDialog.Builder(this);
         builder.setTitle(R.string.forgotTitle);
-        EditText mEdtEmailId = new EditText(this);
+        final EditText mEdtEmailId = new EditText(this);
         builder.setView(mEdtEmailId);
         builder.setPositiveButton(R.string.ok, new DialogInterface.OnClickListener() {
             @Override
             public void onClick(DialogInterface dialogInterface, int i) {
+                Utils.showProgressBar(LogInActivity.this,"Please wait...");
+                passwordRequest(mEdtEmailId.getText().toString());
                 dialogInterface.dismiss();
             }
         }).setNegativeButton(R.string.cancel, new DialogInterface.OnClickListener() {
@@ -121,6 +133,27 @@ public class LogInActivity extends CommonActivity implements View.OnClickListene
         }).create().show();
 
     }
+
+    private void passwordRequest(String email) {
+        Backendless.UserService.restorePassword( email.trim().toString(), new AsyncCallback<Void>()
+        {
+            public void handleResponse( Void response )
+            {
+
+                Utils.hideProgressBar();
+                // Backendless has completed the operation - an email has been sent to the user
+                Toast.makeText(LogInActivity.this,"An email has been sent to the user",Toast.LENGTH_SHORT).show();
+            }
+
+            public void handleFault( BackendlessFault fault )
+            {
+                // password revovery failed, to get the error code call fault.getCode()
+                Toast.makeText(LogInActivity.this,"Failed"+fault.getCode(),Toast.LENGTH_SHORT).show();
+            }
+        });
+
+    }
+
 
     private boolean validate() {
 

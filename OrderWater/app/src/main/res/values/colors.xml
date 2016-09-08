@@ -2,8 +2,8 @@
 <resources>
     <color name="colorPrimary">#B64A55</color>
     <color name="colorPrimaryDark">#B64A55</color><!--#B64A55</color>-->
-    <color name="colorAccent">#FF4081</color>
-
+    <color name="colorAccent">#4D000000</color>
+    <color name="bg">#E43F3F</color>
 
 
     <color name="home">#BF000000</color>

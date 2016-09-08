@@ -6,6 +6,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ListView;
+import android.widget.TextView;
 
 import com.backendless.Backendless;
 import com.backendless.BackendlessCollection;
@@ -30,14 +31,17 @@ import resource.water.com.waterresourceapp.util.Utils;
 
 public class MyOrdersFragment extends CommonFragment {
 
-    private ListView orderList;
+    private ListView mListOrderList;
+    private TextView mTVo_order;
 
     @Nullable
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
 
         View view = inflater.inflate(R.layout.fragment_order_list,container,false);
-        orderList = (ListView) view.findViewById(R.id.orderList);
+        mListOrderList = (ListView) view.findViewById(R.id.orderList);
+        mTVo_order = (TextView)view.findViewById(R.id.no_order);
+        mTVo_order.setVisibility(View.GONE);
         Utils.showProgressBar(getActivity(),"Please wait...");
         getAllOrdersList();
         return view;
@@ -59,18 +63,34 @@ public class MyOrdersFragment extends CommonFragment {
 
                         List<Order> str = orderBackendlessCollection.getData();
 
-                        for (int i = 0; i < str.size(); i++) {
+                        if(str.size()<=0){
 
-                            System.out.println("=======DATA" + str.get(i).getAddress());
+                            Utils.hideProgressBar();
+                            mListOrderList.setVisibility(View.GONE);
+                            mTVo_order.setVisibility(View.VISIBLE);
+
+
+                        }else {
+                            mTVo_order.setVisibility(View.GONE);
+                            mListOrderList.setVisibility(View.VISIBLE);
+
+                            for (int i = 0; i < str.size(); i++) {
+
+                                System.out.println("=======DATA" + str.get(i).getAddress());
+                            }
+                            Utils.hideProgressBar();
+                            OrdersAdapter ordersAdapter = new OrdersAdapter(getActivity(), str);
+                            mListOrderList.setAdapter(ordersAdapter);
+                            ordersAdapter.notifyDataSetChanged();
                         }
-                        Utils.hideProgressBar();
-                        OrdersAdapter ordersAdapter = new OrdersAdapter(getActivity(), str);
-                        orderList.setAdapter(ordersAdapter);
-                        ordersAdapter.notifyDataSetChanged();
+
+
                     }
                     @Override
                     public void handleFault( BackendlessFault fault )
                     {
+
+                        Utils.hideProgressBar();
                         // an error has occurred, the error code can be retrieved with fault.getCode()
                     }
                 });

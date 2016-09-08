@@ -6,8 +6,12 @@ package resource.water.com.waterresourceapp.util;
 
 import android.app.ProgressDialog;
 import android.content.Context;
+import android.content.SharedPreferences;
+import android.preference.PreferenceManager;
 import android.text.TextUtils;
 import android.util.Patterns;
+
+import resource.water.com.waterresourceapp.R;
 
 /**
  * All Progress Dialogues, Alert Dialogues should be maintain here
@@ -19,8 +23,8 @@ public class Utils {
 
         try {
             if (mProgressDialog == null) {
-                mProgressDialog = new ProgressDialog(context);
-                mProgressDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Large);
+                mProgressDialog = new ProgressDialog(context, R.style.MyTheme);
+                mProgressDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Small);
                 mProgressDialog.setMessage(msg);
                 mProgressDialog.setIndeterminate(true);
                 mProgressDialog.setCancelable(false);
@@ -38,7 +42,7 @@ public class Utils {
 
         try {
             if (mProgressDialog == null) {
-                mProgressDialog = new ProgressDialog(context);
+                mProgressDialog = new ProgressDialog(context, R.style.MyTheme);
                 mProgressDialog.setProgressStyle(android.R.style.Widget_ProgressBar_Large);
                 mProgressDialog.setMessage(msg);
                 mProgressDialog.setIndeterminate(true);
@@ -81,4 +85,15 @@ public class Utils {
         }
         return false;
     }
+
+    public static String getStringFromSharedPreferences(Context context,String key){
+       SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
+        return sharedPreferences.getString(key,"");
+    }
+    public static void putStringIntoSharedPreferences(Context context,String key,String value){
+
+        SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
+        sharedPreferences.edit().putString(key,value).apply();
+    }
+
 }
